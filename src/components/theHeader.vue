@@ -16,5 +16,11 @@ export default {
 </script>
 
 <style scoped>
-
+.navbar {
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
 </style>
