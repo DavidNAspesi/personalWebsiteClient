@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <p>this is an introduction</p>
+  <div class="container">
+    <img alt="double helix" src="../assets/icon.svg">
+      <div class="subcontainer">
+        <h1>David N. Aspesi</h1>
+        <h2>Full Stack Web Developer</h2>
+      </div>
   </div>
 </template>
 
@@ -12,7 +16,18 @@ export default {
 
 
 <style scoped>
-div {
+.container {
   margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+img {
+  height: 3in;
+}
+
+.subcontainer {
+  align-items: center;
 }
 </style>

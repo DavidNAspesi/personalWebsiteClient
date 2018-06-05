@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <p>this will be my portfolio, hopefully in a kiosk scroll</p>
-    </div>
+  <v-carousel class="container">
+    <v-carousel-item v-for="(item,i) in items" :src="item.src" :key="i"></v-carousel-item>
+  </v-carousel>
 </template>
 
 <script>

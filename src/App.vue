@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <theHeader></theHeader>
-    <!-- <img src="./assets/logo.png"> -->
     <a name="intro">
       <introduction id="intro"></introduction>
     </a>

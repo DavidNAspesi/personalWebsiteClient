@@ -1,6 +1,8 @@
 <template>
-    <div>
-        <p>this will be all about me</p>
+    <div class="container">
+        <img alt="headshot" src="../assets/DSC_7864.png">
+        <h1>Who is David Aspesi?</h1>
+        <p>It me</p>
     </div>
 </template>
 
@@ -11,5 +13,8 @@ export default {
 </script>
 
 <style scoped>
+img {
+    height: 2in;
+}
 
 </style>
