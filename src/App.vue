@@ -8,7 +8,7 @@
       <aboutMe id="about"></aboutMe>
     </a>
     <a name="portfolio">
-      <portfolio id="portfolio"></portfolio>
+      <portfolio id="portfolio" :items="items"></portfolio>
     </a>
     <a name="contact">
       <contactMe id="contact"></contactMe>
@@ -31,7 +31,37 @@ export default {
     aboutMe,
     portfolio,
     contactMe
-  }
+  },
+  data() {
+    return {
+      items: [
+          {
+              "id": 1,
+              "title": "AccuTherm",
+              "gitHub": "https://github.com/DavidNAspesi/AccuTherm",
+              "img": "https://s15.postimg.cc/fio3qcfij/Screen_Shot_2018-06-06_at_3.58.17_PM.png"
+          },
+          {
+              "id": 2,
+              "title": "Bill Tracker",
+              "gitHub": "https://github.com/DavidNAspesi/billTrackerClient",
+              "img": "./billtracker.gif"
+          },
+          {
+              "id": 3,
+              "title": "Vocab Builder",
+              "gitHub": "https://github.com/DavidNAspesi/Vocab-Builder-Client",
+              "img": "./VocabBuilderGif.gif"
+          },
+          {
+              "id": 4,
+              "title": "Fridge Vision",
+              "gitHub": "https://github.com/SethCaparelli/fridge-vision",
+              "img": "./fridge-vision.gif"
+          }
+      ]
+    }
+  },
 }
 </script>
 
