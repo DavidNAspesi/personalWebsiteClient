@@ -1,11 +1,9 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#intro">Introduction</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#top">Introduction</a>
         <a class="navbar-brand" href="#about">About Me</a>
         <a class="navbar-brand" href="#portfolio">Portfolio</a>
         <a class="navbar-brand" href="#contact">Contact Me!</a>
-
-
     </nav>
 </template>
 
@@ -22,5 +20,10 @@ export default {
     width: 100%;
     top: 0;
     right: 0;
+    z-index: 99999;
+}
+
+.navbar-brand {
+    color: black;
 }
 </style>

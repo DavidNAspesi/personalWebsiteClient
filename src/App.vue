@@ -66,6 +66,10 @@ export default {
 </script>
 
 <style>
+theHeader {
+  z-index: 9999;
+}
+
 #intro {
   height: 400px;
 }
@@ -75,7 +79,7 @@ export default {
 }
 
 #portfolio {
-  height: 400px;
+  height: 600px;
 }
 
 #contact {

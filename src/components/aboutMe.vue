@@ -15,6 +15,9 @@ export default {
 <style scoped>
 img {
     height: 2in;
+    border: 2px;
+    border-style: solid;
+    border-color: #D55217;
 }
 
 </style>
