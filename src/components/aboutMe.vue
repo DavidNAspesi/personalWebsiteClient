@@ -1,8 +1,10 @@
 <template>
     <div class="container">
         <img alt="headshot" src="../assets/DSC_7864.png">
-        <h1>Who is David Aspesi?</h1>
-        <p>It me</p>
+            <div class="subcontainer">
+                <h1>Who is David Aspesi?</h1>
+                <p>It me</p>
+            </div>
     </div>
 </template>
 
@@ -15,9 +17,14 @@ export default {
 <style scoped>
 img {
     height: 2in;
-    border: 2px;
+    border: 3px;
     border-style: solid;
-    border-color: #D55217;
+    border-color: #2A9FD6;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 </style>

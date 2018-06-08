@@ -39,25 +39,33 @@ export default {
               "id": 1,
               "title": "AccuTherm",
               "gitHub": "https://github.com/DavidNAspesi/AccuTherm",
-              "img": "https://s15.postimg.cc/fio3qcfij/Screen_Shot_2018-06-06_at_3.58.17_PM.png"
+              "img": "https://s26.postimg.cc/pd51v5o7t/accuthermcap.jpg",
+              "deployed": false,
+              "deployedSite": ""
           },
           {
               "id": 2,
               "title": "Bill Tracker",
               "gitHub": "https://github.com/DavidNAspesi/billTrackerClient",
-              "img": "./billtracker.gif"
+              "img": "https://s26.postimg.cc/ojsg2kkrt/bill_Tracker_Cap.jpg",
+              "deployed": true,
+              "deployedSite": "https://bill-track.firebaseapp.com/#/"
           },
           {
               "id": 3,
               "title": "Vocab Builder",
               "gitHub": "https://github.com/DavidNAspesi/Vocab-Builder-Client",
-              "img": "./VocabBuilderGif.gif"
+              "img": "https://s26.postimg.cc/vkgfvl76x/Screen_Shot_2018-06-07_at_1.14.43_PM.png",
+              "deployed": true,
+              "deployedSite": "http://vocabbuilder.surge.sh/"
           },
           {
               "id": 4,
               "title": "Fridge Vision",
               "gitHub": "https://github.com/SethCaparelli/fridge-vision",
-              "img": "./fridge-vision.gif"
+              "img": "https://s26.postimg.cc/pyu0rcyqh/fridge-vision-icon.jpg",
+              "deployed": false,
+              "deployedSite": ""
           }
       ]
     }

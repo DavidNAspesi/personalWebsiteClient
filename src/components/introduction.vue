@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="cont">
     <img alt="double helix" src="../assets/icon.svg">
       <div class="subcontainer">
         <h1>David N. Aspesi</h1>
@@ -16,11 +16,12 @@ export default {
 
 
 <style scoped>
-.container {
-  margin-top: 60px;
+.cont {
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
   align-content: center;
+  background-color: #2A9FD6;
 }
 
 img {

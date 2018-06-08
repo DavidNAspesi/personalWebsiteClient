@@ -21,6 +21,7 @@ export default {
     top: 0;
     right: 0;
     z-index: 99999;
+    border: none;
 }
 
 .navbar-brand {
