@@ -74,12 +74,12 @@ export default {
 </script>
 
 <style>
-theHeader {
-  z-index: 9999;
+#app {
+  font-family: 'PT Serif', serif;
 }
 
 #intro {
-  height: 400px;
+  height: 275px;
 }
 
 #about {
@@ -91,6 +91,6 @@ theHeader {
 }
 
 #contact {
-  height: 400px;
+  height: 200px;
 }
 </style>

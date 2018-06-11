@@ -3,7 +3,7 @@
     <img alt="double helix" src="../assets/icon.svg">
       <div class="subcontainer">
         <h1>David N. Aspesi</h1>
-        <h2>Full Stack Web Developer</h2>
+        <h3>Full Stack Web Developer</h3>
       </div>
   </div>
 </template>
@@ -22,14 +22,16 @@ export default {
   justify-content: space-around;
   align-content: center;
   background-color: #2A9FD6;
+  padding-left: 1.5in;
+  padding-right: 2in;
 }
 
 img {
-  height: 3in;
+  height: 2in;
+  align-self: center;
 }
 
 .subcontainer {
-  align-items: center;
-  margin-top: 10%;
+  margin-top: 1in;
 }
 </style>
