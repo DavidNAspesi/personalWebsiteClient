@@ -4,6 +4,10 @@
       <div class="subcontainer">
         <h1>David N. Aspesi</h1>
         <h3>Full Stack Web Developer</h3>
+        <div class="buttonDiv">
+          <a class="btn btn-outline-secondary btn-lg" href="#contact">Find me on the internet!</a>
+          <a class="btn btn-outline-secondary btn-sm" href="https://drive.google.com/file/d/1X0T-7-uHokbAvEiyTE9RlJdlnIqbqg8m/view?usp=sharing">See my resume!</a>
+        </div>
       </div>
   </div>
 </template>

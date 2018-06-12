@@ -83,7 +83,7 @@ export default {
 }
 
 #about {
-  height: 400px;
+  height: 475px;
 }
 
 #portfolio {

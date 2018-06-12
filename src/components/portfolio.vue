@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <h3 class="titleP">My projects:</h3>
         <div id="header-carousel" style="display:flex;justify-content:center">
             <v-carousel style="width:640px">
                 <v-carousel-item v-for="(item, i) in items" :src="item.img" :key="i" style="height:480px;width:640px;background-color:#555">
@@ -30,5 +31,9 @@ export default {
 <style scoped>
 h3, a {
     align-self: center;
+}
+
+.titleP {
+    text-align: center;
 }
 </style>
