@@ -33,6 +33,10 @@ h3, a {
     align-self: center;
 }
 
+a {
+    color: white;
+}
+
 .titleP {
     text-align: center;
 }
