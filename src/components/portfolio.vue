@@ -2,7 +2,7 @@
     <div class="container">
         <h3 class="titleP">My projects:</h3>
         <div id="header-carousel" style="display:flex;justify-content:center">
-            <v-carousel style="width:640px">
+            <v-carousel hide-controls style="width:640px">
                 <v-carousel-item v-for="(item, i) in items" :src="item.img" :key="i" style="height:480px;width:640px;background-color:#555">
                 <v-container fill-height >
                     <v-layout align-center>
