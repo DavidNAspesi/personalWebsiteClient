@@ -1,20 +1,16 @@
 <template>
     <div class="container">
         <h3 class="titleP">My projects:</h3>
-        <div id="header-carousel" style="display:flex;justify-content:center">
-            <v-carousel hide-controls style="width:640px">
-                <v-carousel-item v-for="(item, i) in items" :src="item.img" :key="i" style="height:480px;width:640px;background-color:#555">
-                <v-container fill-height >
-                    <v-layout align-center>
-                    <v-flex style="display:flex;flex-direction:column">
-                        <h3 class="display-3">{{ item.title }}</h3>
-                        <a class="subheading" v-if="item.deployed" :href=item.deployedSite>See the deployed site!</a><br>
-                        <a class="subheading" :href=item.gitHub>Go to this project's GitHub Repository</a>
-                    </v-flex>
-                    </v-layout>
-                </v-container>
-                </v-carousel-item>
-            </v-carousel>
+        <div class="container" style="display:flex;justify-content:space-around">
+            <div class="card" style="width: 18rem;margin: 10px" v-for="(item, i) in items" :key="i">
+                <img class="card-img-top" :src="item.img" :alt="item.title">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.title}}</h5>
+                    <p class="card-text">{{item.description}}</p>
+                    <a :href="item.gitHub" class="btn btn-primary">See the code!</a>
+                    <a class="btn btn-secondary" v-if="item.deployed" :href=item.deployedSite>See the deployed site!</a>
+                </div>
+            </div>
         </div>
     </div>
 </template>
